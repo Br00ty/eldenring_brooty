@@ -1,0 +1,77 @@
+﻿{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Overworld",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overworld"
+                ]
+              }
+            },
+            {
+              "title": "Underground",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Siofra River/Mohgwyn Palace",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "siofra"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Ainsel River/Lake of Rot",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ainsel"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Deeproot",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "deeproot"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

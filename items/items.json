@@ -1,0 +1,135 @@
+[  
+  {
+    "name": "Academy Glintstone Key",
+    "type": "toggle",
+    "img": "images/items/glintstone.png",
+    "codes": "glintstone"
+  },
+  {
+    "name": "Carian Inverted Statue",
+    "type": "toggle",
+    "img": "images/items/carian.png",
+    "codes": "carian"
+  },
+  {
+    "name": "Cursemark of Death",
+    "type": "toggle",
+    "img": "images/items/cursemark.png",
+    "codes": "cursemark"
+  },
+  {
+    "name": "Darkmoon Ring",
+    "type": "toggle",
+    "img": "images/items/darkmoon.png",
+    "codes": "darkmoon"
+  },
+  {
+    "name": "Dectus Medallion (Left)",
+    "type": "toggle",
+    "img": "images/items/dectus_left.png",
+    "codes": "dectus_left"
+  },
+  {
+    "name": "Dectus Medallion (Right)",
+    "type": "toggle",
+    "img": "images/items/dectus_right.png",
+    "codes": "dectus_right"
+  },
+  {
+    "name": "Haligtree Secret Medallion (Left)",
+    "type": "toggle",
+    "img": "images/items/secret_left.png",
+    "codes": "secret_left"
+  },
+  {
+    "name": "Haligtree Secret Medallion (Right)",
+    "type": "toggle",
+    "img": "images/items/secret_right.png",
+    "codes": "secret_right"
+  },
+  {
+    "name": "Rold Medallion",
+    "type": "toggle",
+    "img": "images/items/rold.png",
+    "codes": "rold"
+  },
+  {
+    "name": "Discarded Palace Key",
+    "type": "toggle",
+    "img": "images/items/discarded.png",
+    "codes": "discarded"
+  },
+  {
+    "name": "Drawing-Room Key",
+    "type": "toggle",
+    "img": "images/items/drawing.png",
+    "codes": "drawing"
+  },
+  {
+    "name": "Rusty Key",
+    "type": "toggle",
+    "img": "images/items/rustykey.png",
+    "codes": "rustykey"
+  },
+  {
+    "name": "Pureblood Knight's Medal",
+    "type": "toggle",
+    "img": "images/items/pureblood.png",
+    "codes": "pureblood"
+  },
+  {
+    "name": "Imbued Sword Key",
+    "type": "consumable",
+    "img": "images/items/imbued.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "imbued"
+  },
+  // Great Runes
+  {
+    "name": "Godrick's Great Rune",
+    "type": "toggle",
+    "img": "images/items/godrick.png",
+    "codes": "godrick"
+  },
+  {
+    "name": "Morgott's Great Rune",
+    "type": "toggle",
+    "img": "images/items/Morgott.png",
+    "codes": "Morgott"
+  },
+  {
+    "name": "Radahn's Great Rune",
+    "type": "toggle",
+    "img": "images/items/radahn.png",
+    "codes": "radahn"
+  },
+  {
+    "name": "Rykard's Great Rune",
+    "type": "toggle",
+    "img": "images/items/rykard.png",
+    "codes": "rykard"
+  },
+  {
+    "name": "Great Rune of the Unborn",
+    "type": "toggle",
+    "img": "images/items/unborn.png",
+    "codes": "unborn"
+  },
+  {
+    "name": "Mohg's Great Rune",
+    "type": "toggle",
+    "img": "images/items/mohg.png",
+    "codes": "mohg"
+  },
+  {
+    "name": "Malenia's Great Rune",
+    "type": "toggle",
+    "img": "images/items/malenia.png",
+    "codes": "malenia"
+  }
+]

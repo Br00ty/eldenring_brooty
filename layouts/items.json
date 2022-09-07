@@ -1,0 +1,68 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "-3, 0",
+                        "h_alignment": "left",
+                        "item_size": 50,
+                        "rows": [
+                            [
+                                "glintstone",
+                                "carian",
+                                "cursemark",
+                                "darkmoon",
+                                "discarded",
+                                "drawing",
+                                "rustykey"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "-3, 0",
+                        "h_alignment": "left",
+                        "item_size": 50,
+                        "rows": [
+                            [
+                                "dectus_left",
+                                "dectus_right",
+                                "rold",
+                                "secret_left",
+                                "secret_right",
+                                "pureblood",
+                                "imbued"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "-5, 0",
+                        "margin": "0,0,0,0",
+                        "h_alignment": "left",
+                        "item_size": 55,
+                        "rows": [
+                            [
+                                "godrick",
+                                "morgott",
+                                "radahn",
+                                "rykard",
+                                "unborn",
+                                "mohg",
+                                "malenia"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

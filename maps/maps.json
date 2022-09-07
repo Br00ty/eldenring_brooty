@@ -1,0 +1,26 @@
+[
+  {
+    "name": "overworld",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/overworld.png"
+  },
+  {
+    "name": "siofra",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/siofra.png"
+  },
+  {
+    "name": "ainsel",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/ainsel.png"
+  },
+  {
+    "name": "deeproot",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/deeproot.png"
+  }
+]
