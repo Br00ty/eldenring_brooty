@@ -1,57 +1,656 @@
 [
     {
-        "name": "Example Parent",
+        "name": "Stranded Graveyard",
         "children": [
             {
-                "name": "Example Location 1",
-                "access_rules": [
-                    //read as: progressive_2 or toggle                    
-                    "progressive_2",
-                    "toggle"                    
-                ],
+                "name": "Fringefolk Hero's Grave (requires 2 stonesword keys)",
                 "sections": [
                     {
-                        "name": "Example Section 1",
+                        "name": "Ulcerated Tree Spirit",
+                        "visibility_rules": [
+                            "all_bosses,caves"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Example Section 2",
-                        "item_count": 3
+                        "name": "Erdtree's Favor Talisman",
+                        "visibility_rules": [
+                            "talismans,caves"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1750,
-                        "y": 700
+                        "map": "limgrave",
+                        "x": 768,
+                        "y": 1247
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Limgrave",
+        "children": [
+            {
+                "name": "Fort Haight",
+                "sections": [
+                    {
+                        "name": "Dectus Medallion (Left)",
+                        "visibility_rules": [
+                            "key_items"
+                        ],
+                        "item_count": 1
                     },
                     {
-                        "map": "map2",
-                        "x": 1000,
-                        "y": 500
+                        "name": "Golden Seed Tree (just outside the fort)",
+                        "visibility_rules": [
+                            "golden_seed"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1763,
+                        "y": 1174
                     }
                 ]
             },
             {
-                "name": "Example Location 2",
-                "access_rules": [
-                    //read as: progressive_toggle_2 and has more then 4 consumable
-                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
-                ],
+                "name": "Church of Pilgrimage",
                 "sections": [
                     {
-                        "name": "Example Section 1",
+                        "name": "Sacred Tear",
+                        "visibility_rules": [
+                            "golden_seed"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1500,
-                        "y": 400
+                        "map": "limgrave",
+                        "x": 910,
+                        "y": 1543
+                    },
+                    {
+                        "map": "weeping",
+                        "x": 605,
+                        "y": 100
                     }
                 ]
-            }            
+            },
+            {
+                "name": "Third Church of Marika",
+                "sections": [
+                    {
+                        "name": "Sacred Tear",
+                        "visibility_rules": [
+                            "golden_seed"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1687,
+                        "y": 564
+                    }
+                ]
+            },
+            {
+                "name": "Church of Elleh",
+                "sections": [
+                    {
+                        "name": "Merchant Kale",
+                        "visibility_rules": [
+                            "merchant"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 709,
+                        "y": 1065
+                    }
+                ]
+            },
+            {
+                "name": "Between Saintsbridge + Summonwater Village",
+                "sections": [
+                    {
+                        "name": "Nomadic Merchant",
+                        "visibility_rules": [
+                            "merchant"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1227,
+                        "y": 417
+                    }
+                ]
+            },
+            {
+                "name": "Coastal Cave",
+                "sections": [
+                    {
+                        "name": "Nomadic Merchant",
+                        "visibility_rules": [
+                            "merchant"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 619,
+                        "y": 1252
+                    }
+                ]
+            },
+            {
+                "name": "Mistwoods",
+                "sections": [
+                    {
+                        "name": "Nomadic Merchant",
+                        "visibility_rules": [
+                            "merchant"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1646,
+                        "y": 1012
+                    }
+                ]
+            },
+            {
+                "name": "Murkwater Cave",
+                "sections": [
+                    {
+                        "name": "Patches",
+                        "visibility_rules": [
+                            "merchant,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1114,
+                        "y": 832
+                    }
+                ]
+            },
+            {
+                "name": "Forlorn Hound Evergaol",
+                "sections": [
+                    {
+                        "name": "Bloodhound Knight Darriwil",
+                        "visibility_rules": [
+                            "all_bosses"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1259,
+                        "y": 1520
+                    }
+                ]
+            },
+            {
+                "name": "Dragon Burnt Ruins",
+                "sections": [
+                    {
+                        "name": "Flying Dragon Agheel",
+                        "visibility_rules": [
+                            "all_bosses"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 945,
+                        "y": 1085
+                    }
+                ]
+            },
+            {
+                "name": "Summonwater Village",
+                "sections": [
+                    {
+                        "name": "Tibia Mariner",
+                        "visibility_rules": [
+                            "all_bosses"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Turtle Talisman (requires one stonesword key)",
+                        "visibility_rules": [
+                            "talismans"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1482,
+                        "y": 364
+                    }
+                ]
+            },
+            {
+                "name": "Church of Elleh",
+                "sections": [
+                    {
+                        "name": "Tree Sentinel",
+                        "visibility_rules": [
+                            "all_bosses"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 759,
+                        "y": 1129
+                    }
+                ]
+            },
+            {
+                "name": "Coastal Cave",
+                "sections": [
+                    {
+                        "name": "Demi-Human Chiefs",
+                        "visibility_rules": [
+                            "all_bosses,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 550,
+                        "y": 1201
+                    }
+                ]
+            },
+            {
+                "name": "Groveside Cave",
+                "sections": [
+                    {
+                        "name": "Beastman of Farum Azula",
+                        "visibility_rules": [
+                            "all_bosses,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 685,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "Highroad Cave",
+                "sections": [
+                    {
+                        "name": "Guardian Golem",
+                        "visibility_rules": [
+                            "all_bosses,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1101,
+                        "y": 306
+                    }
+                ]
+            },
+            {
+                "name": "Murkwater Catacombs",
+                "sections": [
+                    {
+                        "name": "Grave Warden Duelist",
+                        "visibility_rules": [
+                            "all_bosses,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1125,
+                        "y": 565
+                    }
+                ]
+            },
+            {
+                "name": "Stormfoot Catacombs",
+                "sections": [
+                    {
+                        "name": "Erdtree Burial Watchdog",
+                        "visibility_rules": [
+                            "all_bosses,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 555,
+                        "y": 924
+                    }
+                ]
+            },
+            {
+                "name": "Limgrave Tunnels",
+                "sections": [
+                    {
+                        "name": "Stonedigger Troll",
+                        "visibility_rules": [
+                            "all_bosses,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 898,
+                        "y": 918
+                    }
+                ]
+            },
+            {
+                "name": "Agheel Lake Bridge",
+                "sections": [
+                    {
+                        "name": " Night's Calvary",
+                        "visibility_rules": [
+                            "night"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1115,
+                        "y": 989
+                    }
+                ]
+            },
+            {
+                "name": "Mistwood Ruins",
+                "sections": [
+                    {
+                        "name": "Axe Talisman",
+                        "visibility_rules": [
+                            "talismans"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1478,
+                        "y": 1009
+                    }
+                ]
+            },
+            {
+                "name": "Cave of Knowledge",
+                "sections": [
+                    {
+                        "name": "Haligtree Talisman",
+                        "visibility_rules": [
+                            "talismans,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 920,
+                        "y": 1305
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Stormhill",
+        "children": [
+            {
+                "name": "Stormhill",
+                "sections": [
+                    {
+                        "name": "Margit the Fell Omen",
+                        "visibility_rules": [
+                            "bosses"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 373,
+                        "y": 687
+                    }
+                ]
+            },
+            {
+                "name": "Stormhill",
+                "sections": [
+                    {
+                        "name": "Golden Seed Tree",
+                        "visibility_rules": [
+                            "golden_seed"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 545,
+                        "y": 681
+                    }
+                ]
+            },
+            {
+                "name": "Stormhill Evergaol",
+                "sections": [
+                    {
+                        "name": "Crucible Knight",
+                        "visibility_rules": [
+                            "all_bosses"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 699,
+                        "y": 852
+                    }
+                ]
+            },
+            {
+                "name": "Deathtouched Catacombs",
+                "sections": [
+                    {
+                        "name": "Black Knife Assassin",
+                        "visibility_rules": [
+                            "all_bosses,caves"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 937,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "Warmaster's Shack",
+                "sections": [
+                    {
+                        "name": "Deathbird",
+                        "visibility_rules": [
+                            "night"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 915,
+                        "y": 601
+                    }
+                ]
+            },
+            {
+                "name": "Warmaster's Shack",
+                "sections": [
+                    {
+                        "name": "Bell Bearing Hunter",
+                        "visibility_rules": [
+                            "night"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 800,
+                        "y": 585
+                    }
+                ]
+            },
+            {
+                "name": "Top of Gatefront",
+                "sections": [
+                    {
+                        "name": "Arrow's Reach Talisman",
+                        "visibility_rules": [
+                            "talismans"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 763,
+                        "y": 781
+                    }
+                ]
+            },
+            {
+                "name": "Stormhill",
+                "sections": [
+                    {
+                        "name": "Lance Talisman",
+                        "visibility_rules": [
+                            "talismans"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 1045,
+                        "y": 171
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Roundtable Hold/Divine Tower of Limgrave",
+        "children": [
+            {
+                "name": "Roundtable Hold",
+                "sections": [
+                    {
+                        "name": "Twin Maiden Husks Shop",
+                        "visibility_rules": [
+                            "merchant"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 190,
+                        "y": 1464
+                    }
+                ]
+            },
+            {
+                "name": "Divine Tower of Limgrave",
+                "sections": [
+                    {
+                        "name": "Boltdrake Talisman",
+                        "visibility_rules": [
+                            "talismans"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "limgrave",
+                        "x": 354,
+                        "y": 516
+                    }
+                ]
+            }
         ]
     }
 ]

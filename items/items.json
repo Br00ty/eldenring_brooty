@@ -131,5 +131,75 @@
     "type": "toggle",
     "img": "images/items/malenia.png",
     "codes": "malenia"
+  },
+  // Settings
+  {
+    "name": "Key Items",
+    "type": "toggle",
+    "img": "images/settings/key_items.png",
+    "codes": "key_items"
+  },
+  {
+    "name": "Major Bosses",
+    "type": "toggle",
+    "img": "images/settings/bosses.png",
+    "codes": "bosses"
+  },
+  {
+    "name": "Golden Seed Trees/Sacred Tear Churches",
+    "type": "toggle",
+    "img": "images/settings/golden_seed.png",
+    "codes": "golden_seed"
+  },
+  {
+    "name": "Merchant Shops",
+    "type": "toggle",
+    "img": "images/settings/merchant.png",
+    "codes": "merchant"
+  },
+  {
+    "name": "All Bosses (right click to activate Night Bosses)",
+    "type": "progressive_toggle",
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/mini_bosses.png",
+        "codes": "all_bosses"
+      },
+      {
+        "img": "images/settings/night.png",
+        "codes": "night"
+      }
+    ]
+  },
+  {
+    "name": "All Bosses",
+    "type": "toggle",
+    "img": "images/settings/mini_bosses.png",
+    "codes": "all_bosses"
+  },
+  {
+    "name": "Talisman Treasures",
+    "type": "toggle",
+    "img": "images/settings/talismans.png",
+    "codes": "talismans,talisman"
+  },
+  {
+    "name": "Caves, Graves, Catacombs, and Tunnels",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "caves",
+        "inherit_codes": false,
+        "img": "images/settings/caves.png"
+      },
+      {
+        "codes": "caves_off",
+        "inherit_codes": false,
+        "img": "images/settings/caves_off.png"
+      }
+    ]
   }
 ]

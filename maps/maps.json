@@ -1,9 +1,51 @@
 [
   {
     "name": "overworld",
-    "location_size": 48,
+    "location_size": 30,
     "location_border_thickness": 4,
     "img": "images/maps/overworld.png"
+  },
+  {
+    "name": "limgrave",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/limgrave.png"
+  },
+  {
+    "name": "weeping",
+    "location_size": 28,
+    "location_border_thickness": 4,
+    "img": "images/maps/weeping.png"
+  },
+  {
+    "name": "liurnia",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/liurnia.png"
+  },
+  {
+    "name": "caelid",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/caelid.png"
+  },
+  {
+    "name": "altus",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/altus.png"
+  },
+  {
+    "name": "mountain",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/mountain.png"
+  },
+  {
+    "name": "farum_tree",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/farum_tree.png"
   },
   {
     "name": "siofra",

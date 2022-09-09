@@ -9,6 +9,7 @@
         {
           "type": "dock",
           "dock": "left",
+          "orientation": "vertical",
           "v_alignment": "stretch",
           "content": [
             {
@@ -19,6 +20,29 @@
                 "type": "layout",
                 "key": "shared_item_grid"
               }
+            },
+            {
+              "type": "group",
+              "header": "Settings",
+              "dock": "bottom",
+              "content": {
+                "type": "layout",
+                "v_alignment": "stretch",
+                "key": "settings_grid"
+              }
+            },
+            {
+              "type": "group",
+              "background": "#000000",
+              //"header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "vertical",
+                "compact": true
+              }
             }
           ]
         },
@@ -28,9 +52,71 @@
             {
               "title": "Overworld",
               "content": {
-                "type": "map",
-                "maps": [
-                  "overworld"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Limgrave",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "limgrave"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Weeping Peninsula",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "weeping"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lake of Liurnia",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "liurnia"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Caelid",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "caelid"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Altus Plateu",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "altus"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mountaintop of the Giants",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mountain"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Farum Azula/Haligtree",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "farum_tree"
+                      ]
+                    }
+                  }
                 ]
               }
             },
